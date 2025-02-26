@@ -1,0 +1,116 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+head {
+    align-content: center;
+
+}
+
+ul{
+    list-style-type: none;
+    align-content:flex-end;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9e0e29;
+}
+
+li{
+    float: inline-start;
+    border-radius: 10% 10%;
+    align-content: space-between;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-family: "Hachi Maru Pop", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin: 5%;
+    padding: 10px 25px;
+    text-decoration: none;
+    border: 1px;
+
+    
+}
+
+li a:hover:not(.active) {
+    background-color: #9e0e29;
+}
+
+.active {
+    background-color: #fff8fd;
+}
+
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+
+div img {
+    
+    width: 150px;
+    height: 150px;
+    border: 2px solid #9f0f80;
+    border-radius: 13px;
+    margin: 10px;
+    transition: 400ms;
+   
+   }
+
+/*-- containers for Truck Tracker and Plan ahead--*/
+
+.box-1 {
+    font-family: "Hachi Maru Pop", serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    padding: 5%;
+    margin: 5%;
+    background-color: #9e0e29;
+    border-radius: 0% 0%;
+}
+
+
+.container {
+    display: flex;
+    margin:2%;
+    padding: 2%;
+    border: 0%;
+}
+
+.box-2 {
+    font-family: "Hachi Maru Pop", serif;
+    font-weight: 400;
+    font-style: normal;
+    align-content: center;
+    height:50px;
+    width:200px;
+    background-color: #9f0f80;
+    border:solid #9e0e29; 
+    margin-right: 10%;
+    
+}
+
+.box-3 {
+    font-family: "Hachi Maru Pop", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 50px;
+    width:200px;
+    background-color:#9f0f80;
+    border:solid #9e0e29;
+}
+
+footer {
+display: flex;
+align-content: first baseline;
+background-color: #9e0e29;
+}
