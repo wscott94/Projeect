@@ -1,25 +1,68 @@
-*{
-    margin: 0%;
+* {
+margin: 0%;
+padding: 0%;
+border: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    font-family: "Hachi Maru Pop", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: underline;
     padding: 0%;
-    border: 0%;
-}
-
-head {
-    align-content: center;
+    margin: auto;
 
 }
 
-ul{
+.dropbtn {
+    
+    background-color:#9e0e29;
+     color: #fff8fd;
+    padding: 16px;
+    font-size: 16px;
+    border: 10px;
+    border-color: #9f0f80;
+    
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9e0e29;
+    min-width: 160px;
+}
+
+.dropdown-content a {
+    color: #fff8fd;
+    padding: 12px 16px;
+    text-decoration: underline;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #9f0f80;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #9e0e29;}
+
+
+/* ul{
     list-style-type: none;
-    align-content:flex-end;
+    align-content: center;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #9e0e29;
-}
+    height: 80px;
+} */
 
 li{
-    float: inline-start;
+    float: inline-end;
     border-radius: 10% 10%;
     align-content: space-between;
 }
@@ -32,7 +75,7 @@ li a {
     font-style: normal;
     text-align: center;
     margin: 5%;
-    padding: 10px 25px;
+    padding: 5px 10px;
     text-decoration: none;
     border: 1px;
 
@@ -47,8 +90,13 @@ li a:hover:not(.active) {
     background-color: #fff8fd;
 }
 
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: "Hachi Maru Pop", serif;
+}
 
-div{
+div {
     display: flex;
     flex-wrap: wrap;
    justify-content: center;
@@ -56,8 +104,8 @@ div{
 
 div img {
     
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border: 2px solid #9f0f80;
     border-radius: 13px;
     margin: 10px;
@@ -68,6 +116,7 @@ div img {
 /*-- containers for Truck Tracker and Plan ahead--*/
 
 .box-1 {
+    height: 10px;
     font-family: "Hachi Maru Pop", serif;
     font-weight: 400;
     font-style: normal;
@@ -75,18 +124,20 @@ div img {
     padding: 5%;
     margin: 5%;
     background-color: #9e0e29;
-    border-radius: 0% 0%;
+    border-radius: 0px;
 }
 
 
 .container {
     display: flex;
-    margin:2%;
-    padding: 2%;
-    border: 0%;
+    align-content: space-around;
+    margin:4%;
+    padding: 4%;
+    border: 0;
 }
 
 .box-2 {
+    display: flex;
     font-family: "Hachi Maru Pop", serif;
     font-weight: 400;
     font-style: normal;
@@ -95,11 +146,13 @@ div img {
     width:200px;
     background-color: #9f0f80;
     border:solid #9e0e29; 
-    margin-right: 10%;
+    margin: auto;
+
     
 }
 
 .box-3 {
+    display: flex;
     font-family: "Hachi Maru Pop", serif;
     font-weight: 400;
     font-style: normal;
@@ -109,8 +162,31 @@ div img {
     border:solid #9e0e29;
 }
 
+.box-4 {
+    display: flex;
+    
+    font-family: "Hachi Maru Pop", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100px;
+    width:200px;
+    background-color:#9f0f80;
+    border:solid #9e0e29;
+}
+
+.box-5 {
+    display: flex;
+    font-family: "Hachi Maru Pop", serif;
+    font-weight: 400;
+    font-style: normal;
+    height: 100px;
+    width:200px;
+    background-color:#9f0f80;
+    border:solid #9e0e29;
+}
+
+
 footer {
 display: flex;
-align-content: first baseline;
 background-color: #9e0e29;
 }
